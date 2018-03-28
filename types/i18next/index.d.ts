@@ -13,7 +13,7 @@ declare namespace i18next {
 
     type FallbackLng = string | string[] | FallbackLngObjList;
 
-    type FormatFunction = (value: string, format?: string, lng?: string) => string;
+    type FormatFunction = (value: any, format?: string, lng?: string) => string;
 
     interface InterpolationOptions {
         /**
